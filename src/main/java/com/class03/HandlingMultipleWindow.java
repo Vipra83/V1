@@ -1,5 +1,6 @@
 package com.class03;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +12,9 @@ public class HandlingMultipleWindow {
     public static void main(String[] args) {
 
         // Setting path to chromedriver.exe
-        System.setProperty("webdriver.chrome.driver", "src//main//resources//driver//chromedriver.exe");
+      //  System.setProperty("webdriver.chrome.driver", "src//main//resources//driver//chromedriver.exe");
+
+        WebDriverManager.chromedriver().setup();
 
         // Open the browser
         WebDriver driver = new ChromeDriver();

@@ -9,5 +9,6 @@ public class JavaUtility {
         System.out.println(System.getProperty("user.dir"));
         System.out.println(System.getProperty("user.name"));
 
+
     }
 }
