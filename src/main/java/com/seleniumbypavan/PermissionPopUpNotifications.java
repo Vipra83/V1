@@ -11,8 +11,6 @@ public class PermissionPopUpNotifications {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
 
-
-
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(options);
 

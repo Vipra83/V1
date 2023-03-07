@@ -10,7 +10,7 @@ public class AuthenticatedPopUp {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-       // driver.get("https://the-internet.herokuapp.com/basic_auth");
+       //driver.get("https://the-internet.herokuapp.com/basic_auth");
 
         //Syntax
        // https://admin:admin@the-internet.herokuapp.com/basic_auth
